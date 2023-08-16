@@ -11,7 +11,9 @@ from .functions.arbitrary_send_eth import ArbitrarySendEth
 from .erc.erc20.arbitrary_send_erc20_no_permit import ArbitrarySendErc20NoPermit
 from .erc.erc20.arbitrary_send_erc20_permit import ArbitrarySendErc20Permit
 from .functions.suicidal import Suicidal
-
+from .attributes.Change_Balance import ERC20ChangeBalance
+from .attributes.pause_transfer import PausableToken
+from .attributes.maxtransfer import ERC20TransferLimit
 # from .functions.complex_function import ComplexFunction
 from .reentrancy.reentrancy_benign import ReentrancyBenign
 from .reentrancy.reentrancy_read_before_write import ReentrancyReadBeforeWritten
